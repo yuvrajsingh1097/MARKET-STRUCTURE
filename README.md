@@ -15,3 +15,37 @@ HOW TO READ THE OUTPUT CHART:
     ● HL (blue  diamond) = Higher Low    → bullish structure  ← buy here
     ● LH (red   diamond) = Lower High    → bearish structure  ← sell here
     ● LL (orange diamond)= Lower Low     → bearish structure
+
+
+
+
+HH (green diamond) = Higher High   → bullish structure
+    ● HL (blue  diamond) = Higher Low    → bullish structure  ← buy here
+    ● LH (red   diamond) = Lower High    → bearish structure  ← sell here
+    ● LL (orange diamond)= Lower Low     → bearish structure
+
+
+
+
+
+import pandas as pd
+import yfinance as yf
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+from datetime import datetime, timedelta
+import warnings
+ 
+warnings.filterwarnings("ignore")
+ 
+ 
+# ──────────────────────────────────────────────────────────
+#  ★ EDIT THESE TO CHANGE PAIR / TIMEFRAMES
+# ──────────────────────────────────────────────────────────
+ 
+PAIR     = "EUR/USD"
+SYMBOL   = "EURUSD=X"
+HTF      = "1d"     # Higher timeframe (daily)  — for BIAS
+LTF      = "1h"     # Lower  timeframe (hourly) — for ENTRY
+HTF_DAYS = 180      # How many days of daily data
+LTF_DAYS = 30       # How many days of hourly data
+SWING_N  = 3        # Candles each side for swing detection
