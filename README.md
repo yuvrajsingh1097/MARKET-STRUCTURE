@@ -49,3 +49,37 @@ LTF      = "1h"     # Lower  timeframe (hourly) — for ENTRY
 HTF_DAYS = 180      # How many days of daily data
 LTF_DAYS = 30       # How many days of hourly data
 SWING_N  = 3        # Candles each side for swing detection
+
+
+
+
+
+
+
+
+
+
+
+
+
+Label each swing as HH, HL, LH, or LL.
+ 
+    
+HH  Higher High   — swing high ABOVE previous swing high
+                          → buyers are gaining ground (BULLISH)
+ 
+HL  Higher Low    — swing low ABOVE previous swing low
+                          → sellers can't push it down as far (BULLISH)
+                          → This is the ENTRY point in an uptrend!
+ 
+LH  Lower High    — swing high BELOW previous swing high
+                          → buyers can't push it up as far (BEARISH)
+                          → This is the ENTRY point in a downtrend!
+ 
+LL  Lower Low     — swing low BELOW previous swing low
+                          → sellers are gaining ground (BEARISH)
+ 
+  MARKET PHASES:
+      HH + HL series  = UPTREND  → buy the HL pullbacks
+      LH + LL series  = DOWNTREND → sell the LH rallies
+      Mixed / unclear = RANGE    → stay patient
