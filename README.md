@@ -83,3 +83,9 @@ LL  Lower Low     — swing low BELOW previous swing low
       HH + HL series  = UPTREND  → buy the HL pullbacks
       LH + LL series  = DOWNTREND → sell the LH rallies
       Mixed / unclear = RANGE    → stay patient
+
+
+
+
+
+these work more perfectly and finely tunned for forex market only and currency pairs
