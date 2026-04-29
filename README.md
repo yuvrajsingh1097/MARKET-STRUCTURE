@@ -89,3 +89,5 @@ LL  Lower Low     — swing low BELOW previous swing low
 
 
 these work more perfectly and finely tunned for forex market only and currency pairs
+
+gives a good win rate only when combined with other ict concepts 
